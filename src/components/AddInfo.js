@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Grid, Select, TextField, MenuItem, FormGroup } from '@mui/material';
-import { useQuery, gql, useMutation } from '@apollo/client';
+import { Button, Grid, Select, TextField, MenuItem} from '@mui/material';
+import {gql, useMutation } from '@apollo/client';
 
 /* <Grid item xs={3}>
                     <TextField fullWidth placeholder='Input Morning Dose'></TextField>
@@ -59,7 +59,7 @@ function AddInfo() {
         event.preventDefault();
         //if (!todoText.trim()) return;
         //const data = await addInsulin({ variables: {week: 33, day:50, mr:"Please work, we see"}});
-        await addInsulin({ variables: {week: 33, day:50, md:"Please work, we see", ed:"uh",mr:"huh",er:"hmm" }});
+        await addInsulin({ variables: {week: 22, day:10, md:"data Here too!", ed:"uh",mr:"huh",er:"hmm" }});
       }
 
     return (
