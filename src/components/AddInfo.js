@@ -59,7 +59,7 @@ function AddInfo() {
         event.preventDefault();
         //if (!todoText.trim()) return;
         //const data = await addInsulin({ variables: {week: 33, day:50, mr:"Please work, we see"}});
-        await addInsulin({ variables: {week: 22, day:10, md:"data Here too!", ed:"uh",mr:"huh",er:"hmm" }});
+        await addInsulin({ variables: {week: 11, day:20, md:"1 unit", ed:"2 units",mr:"huh",er:"hmm" }});
       }
 
     return (
